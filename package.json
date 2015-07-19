@@ -1,0 +1,30 @@
+{
+  "name": "hexo-tag-deezer",
+  "version": "1.0.0",
+  "description": "Deezer track player widget for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdinsHat/hexo-tag-deezer.git"
+  },
+  "keywords": [
+    "hexo",
+    "deezer",
+    "music",
+    "tag",
+    "widget"
+  ],
+  "author": {
+    "name": "Doug Bromley",
+    "email": "doug.bromley@gmail.com",
+    "url": "http://www.dougbromley.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OdinsHat/hexo-tag-deezer/issues"
+  },
+  "homepage": "https://github.com/OdinsHat/hexo-tag-deezer#readme"
+}
