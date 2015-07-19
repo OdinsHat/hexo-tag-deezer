@@ -1,3 +1,9 @@
+/**
+ * @file This is a tag plugin for the Hexo static site generator.
+ * @copyright Doug Bromley 2015
+ * @author Doug Bromley
+ * @license MIT
+ */
 hexo.extend.tag.register('deezer', function(args){
     
     var url = 'http://www.deezer.com/plugins/player';
@@ -32,7 +38,7 @@ hexo.extend.tag.register('deezer', function(args){
         '&size=' + size + 
         '&type=tracks' +
         '&id=' + trackId + 
-        '&title=&app_id=' + config.appId + 
+        '&title=&app_id=' + config.appId + '"' + 
         ' scrolling="no"' + 
         ' frameborder="0"' +
         ' allowTransparency="true"' + 
