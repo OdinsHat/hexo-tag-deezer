@@ -1,4 +1,4 @@
-hexo.extend.tag.register('deezer', function(args, content){
+hexo.extend.tag.register('deezer', function(args){
     
     var url = 'http://www.deezer.com/plugins/player';
 
@@ -18,7 +18,7 @@ hexo.extend.tag.register('deezer', function(args, content){
 
     var config = hexo.config.deezer || {};
     config.theme = config.theme || 'dark';
-    config.appId = config.appId || 1;
+    config.appId = config.appid || 1;
     config.colour = config.colour || '1990DB';
 
     var iframeTag = '<iframe src="' + src +
