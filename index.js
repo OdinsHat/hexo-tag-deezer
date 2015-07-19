@@ -21,7 +21,7 @@ hexo.extend.tag.register('deezer', function(args){
     config.appId = config.appid || 1;
     config.colour = config.colour || '1990DB';
 
-    var iframeTag = '<iframe src="' + src +
+    var iframeTag = '<iframe src="' + url +
         '?format=' + format +
         '&autoplay=' + autoplay +
         '&playlist=' + playlist +
@@ -40,5 +40,4 @@ hexo.extend.tag.register('deezer', function(args){
         '</iframe>';
 
     return iframeTag;
-
 });
