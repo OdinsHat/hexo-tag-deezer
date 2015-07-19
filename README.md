@@ -17,11 +17,15 @@ In your Hexo project root.
 
 The full tag format is as follows:
 
+```
 {% deezer track_id [[format] [size [autoplay [playlist]]]] %}
+```
 
 Example to get the above square Depeche Mode track it would be 
 
+```
 {% deezer 3135556 square %}
+```
 
 # Global Tag Configuration
 
