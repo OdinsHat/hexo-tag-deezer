@@ -41,4 +41,4 @@ hexo.extend.tag.register('deezer', function(args){
 
     return iframeTag;
 
-}, options);
+});
