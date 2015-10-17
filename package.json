@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-deezer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Deezer track player widget for Hexo",
   "main": "index.js",
   "scripts": {
