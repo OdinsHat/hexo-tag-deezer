@@ -15,7 +15,7 @@ hexo.extend.tag.register('deezer', function(args){
         playlist = args[4] || 'false';
 
     var width = '700';
-    var height = '290';
+    var height = '120';
 
     if (format === 'square') {
         width = '300';
