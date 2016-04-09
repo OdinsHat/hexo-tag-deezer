@@ -1,11 +1,11 @@
 /**
  * @file This is a tag plugin for the Hexo static site generator.
- * @copyright Doug Bromley 2015
+ * @copyright Doug Bromley 2015-2016
  * @author Doug Bromley
  * @license MIT
  */
 hexo.extend.tag.register('deezer', function(args){
-    
+
     var url = 'http://www.deezer.com/plugins/player';
 
     var trackId = args[0],
@@ -24,25 +24,24 @@ hexo.extend.tag.register('deezer', function(args){
 
     var config = hexo.config.deezer || {};
     config.theme = config.theme || 'dark';
-    config.appId = config.appid || 1;
     config.colour = config.colour || '1990DB';
 
     var iframeTag = '<iframe src="' + url +
         '?format=' + format +
         '&autoplay=' + autoplay +
         '&playlist=' + playlist +
-        '&width=' + width + 
+        '&width=' + width +
         '&height=' + height +
-        '&color=' + config.colour + 
-        '&layout=' + config.theme + 
-        '&size=' + size + 
+        '&color=' + config.colour +
+        '&layout=' + config.theme +
+        '&size=' + size +
         '&type=tracks' +
-        '&id=' + trackId + 
-        '&title=&app_id=' + config.appId + '"' + 
-        ' scrolling="no"' + 
+        '&id=' + trackId +
+        '&title=&app_id=161645"' +
+        ' scrolling="no"' +
         ' frameborder="0"' +
-        ' allowTransparency="true"' + 
-        ' width="' + width + '" height="' + height + '">' + 
+        ' allowTransparency="true"' +
+        ' width="' + width + '" height="' + height + '">' +
         '</iframe>';
 
     return iframeTag;
