@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/OdinsHat/hexo-tag-deezer/issues"
   },
-  "homepage": "https://github.com/OdinsHat/hexo-tag-deezer#readme"
+  "homepage": "https://github.com/OdinsHat/hexo-tag-deezer#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
 }
