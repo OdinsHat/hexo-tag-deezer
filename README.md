@@ -1,6 +1,6 @@
 # About
 
-[![npm version](https://badge.fury.io/js/hexo-tag-deezer.svg)](https://badge.fury.io/js/hexo-tag-deezer)
+[![Build Status](https://travis-ci.org/OdinsHat/hexo-tag-deezer.svg?branch=master)](https://travis-ci.org/OdinsHat/hexo-tag-deezer) [![npm version](https://badge.fury.io/js/hexo-tag-deezer.svg)](https://badge.fury.io/js/hexo-tag-deezer)
 
 This is a [Hexo](https://hexo.io) tag plugin for including a [Deezer](http://www.deezer.com) track playing widget into your pages/posts. Examples of what they can look like are below:
 
