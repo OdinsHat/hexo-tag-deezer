@@ -31,7 +31,7 @@
   "homepage": "https://github.com/OdinsHat/hexo-tag-deezer#readme",
   "devDependencies": {
     "mocha": "^2.3.4",
-    "eslint": "^2.2.0",
+    "eslint": ">=4.18.2",
     "eslint-config-hexo": "^1.0.3",
     "jscs": "^2.10.1",
     "jscs-preset-hexo": "^1.0.1"
