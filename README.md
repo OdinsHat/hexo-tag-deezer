@@ -47,4 +47,4 @@ deezer:
 ```
 
 # Example in the Wild
-And last but not least here's an example of it working on my Hexo-powered [web dev & tech blog](http://www.dougbromley.com/2015/07/Hexo-Deezer-Tag-Plugin/)
+And last but not least here's an example of it working on my Hexo-powered [web dev & tech blog](https://www.strawdogs.co/2015/07/Hexo-Deezer-Tag-Plugin/)
