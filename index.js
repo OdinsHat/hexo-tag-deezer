@@ -6,7 +6,7 @@
  */
 hexo.extend.tag.register('deezer', function(args) {
 
-  var url = 'http://www.deezer.com/plugins/player';
+  var url = 'https://www.deezer.com/plugins/player';
 
   var trackId = args[0];
   var format = args[1] || 'classic';
