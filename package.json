@@ -30,10 +30,6 @@
   },
   "homepage": "https://github.com/OdinsHat/hexo-tag-deezer#readme",
   "devDependencies": {
-    "eslint": "^7.16.0",
-    "eslint-config-hexo": "^1.0.3",
-    "jscs": "^3.0.7",
-    "jscs-preset-hexo": "^1.0.1",
-    "mocha": "^6.2.3"
+    "eslint": "^7.16.0"
   }
 }
